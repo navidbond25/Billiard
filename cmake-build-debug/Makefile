@@ -163,6 +163,33 @@ Billiard_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/Billiard_automoc.cpp.s
 .PHONY : Billiard_automoc.cpp.s
 
+SourceFiles/Connection.o: SourceFiles/Connection.cpp.o
+
+.PHONY : SourceFiles/Connection.o
+
+# target to build an object file
+SourceFiles/Connection.cpp.o:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o
+.PHONY : SourceFiles/Connection.cpp.o
+
+SourceFiles/Connection.i: SourceFiles/Connection.cpp.i
+
+.PHONY : SourceFiles/Connection.i
+
+# target to preprocess a source file
+SourceFiles/Connection.cpp.i:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.i
+.PHONY : SourceFiles/Connection.cpp.i
+
+SourceFiles/Connection.s: SourceFiles/Connection.cpp.s
+
+.PHONY : SourceFiles/Connection.s
+
+# target to generate assembly for a file
+SourceFiles/Connection.cpp.s:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.s
+.PHONY : SourceFiles/Connection.cpp.s
+
 SourceFiles/Login.o: SourceFiles/Login.cpp.o
 
 .PHONY : SourceFiles/Login.o
@@ -216,6 +243,60 @@ SourceFiles/Matching.s: SourceFiles/Matching.cpp.s
 SourceFiles/Matching.cpp.s:
 	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.s
 .PHONY : SourceFiles/Matching.cpp.s
+
+SourceFiles/Server.o: SourceFiles/Server.cpp.o
+
+.PHONY : SourceFiles/Server.o
+
+# target to build an object file
+SourceFiles/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o
+.PHONY : SourceFiles/Server.cpp.o
+
+SourceFiles/Server.i: SourceFiles/Server.cpp.i
+
+.PHONY : SourceFiles/Server.i
+
+# target to preprocess a source file
+SourceFiles/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.i
+.PHONY : SourceFiles/Server.cpp.i
+
+SourceFiles/Server.s: SourceFiles/Server.cpp.s
+
+.PHONY : SourceFiles/Server.s
+
+# target to generate assembly for a file
+SourceFiles/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.s
+.PHONY : SourceFiles/Server.cpp.s
+
+SourceFiles/ServerTable.o: SourceFiles/ServerTable.cpp.o
+
+.PHONY : SourceFiles/ServerTable.o
+
+# target to build an object file
+SourceFiles/ServerTable.cpp.o:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o
+.PHONY : SourceFiles/ServerTable.cpp.o
+
+SourceFiles/ServerTable.i: SourceFiles/ServerTable.cpp.i
+
+.PHONY : SourceFiles/ServerTable.i
+
+# target to preprocess a source file
+SourceFiles/ServerTable.cpp.i:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.i
+.PHONY : SourceFiles/ServerTable.cpp.i
+
+SourceFiles/ServerTable.s: SourceFiles/ServerTable.cpp.s
+
+.PHONY : SourceFiles/ServerTable.s
+
+# target to generate assembly for a file
+SourceFiles/ServerTable.cpp.s:
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.s
+.PHONY : SourceFiles/ServerTable.cpp.s
 
 SourceFiles/UserTable.o: SourceFiles/UserTable.cpp.o
 
@@ -284,12 +365,21 @@ help:
 	@echo "... Billiard_automoc.o"
 	@echo "... Billiard_automoc.i"
 	@echo "... Billiard_automoc.s"
+	@echo "... SourceFiles/Connection.o"
+	@echo "... SourceFiles/Connection.i"
+	@echo "... SourceFiles/Connection.s"
 	@echo "... SourceFiles/Login.o"
 	@echo "... SourceFiles/Login.i"
 	@echo "... SourceFiles/Login.s"
 	@echo "... SourceFiles/Matching.o"
 	@echo "... SourceFiles/Matching.i"
 	@echo "... SourceFiles/Matching.s"
+	@echo "... SourceFiles/Server.o"
+	@echo "... SourceFiles/Server.i"
+	@echo "... SourceFiles/Server.s"
+	@echo "... SourceFiles/ServerTable.o"
+	@echo "... SourceFiles/ServerTable.i"
+	@echo "... SourceFiles/ServerTable.s"
 	@echo "... SourceFiles/UserTable.o"
 	@echo "... SourceFiles/UserTable.i"
 	@echo "... SourceFiles/UserTable.s"

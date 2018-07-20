@@ -21,25 +21,34 @@ Login::Login(QWidget *parent) : QWidget(parent){
     QDialogButtonBox *buttonarea=new QDialogButtonBox;
     buttonarea -> addButton(exit, QDialogButtonBox::RejectRole);
     buttonarea -> addButton(mLoginButton, QDialogButtonBox::ActionRole);
+    radio1 = new QRadioButton(tr(" server"));
+    radio2 = new QRadioButton(tr(" client"));
 
     QHBoxLayout *first=new QHBoxLayout;
     first->addWidget(mLabel);
     first->addWidget(mUserName);
 
+    QHBoxLayout *third=new QHBoxLayout;
+    third->addWidget(radio1);
+    third->addWidget(radio2);
+
     QVBoxLayout *second=new QVBoxLayout;
     second->addLayout(first);
+    second->addLayout(third);
     second->addWidget(buttonarea);
     setLayout(second);
 
     connect(exit, SIGNAL(clicked()), this, SLOT(close()));
     connect(mLoginButton, SIGNAL(clicked()), this, SLOT(LoginRequest()));
-    Make_user_Table();
+
+    numberOfuser=0;
+    //Make_user_Table();
     show();
 }
 void Login::Make_user_Table(){
     mUserTable=new QTableWidget();
     mUserTable->setGeometry(20,1,480,480);
-    numberOfuser=0;
+
 }
 
 void Login::LoginRequest() {
@@ -47,23 +56,27 @@ void Login::LoginRequest() {
 
     QString usr =mUserName->text();
     bool check=false;
-    for(int i=0;i<mPlayers.size();i++){
-        if(mPlayers[i]->username==usr)
+    for(int i=0;i<usernames.size();i++){
+        if(usernames[i]==usr)
             check=true;
     }
     if(check==false) {
-        QTableWidgetItem *theItem = new QTableWidgetItem();
+        /*QTableWidgetItem *theItem = new QTableWidgetItem();
         theItem->setData(Qt::EditRole, usr);
         mUserTable->setItem(numberOfuser, 0, theItem);
-        numberOfuser++;
-        emit(NewTable(mUserTable));
+        */
         emit(AddUser(usr,numberOfuser));
+        usernames.push_back(usr);
+        if(radio1->isChecked()){
+            emit(NewServer(usernames));
+        }
+        else if(radio2->isChecked()){
+            emit(NewClient(usernames));
+        }
+        numberOfuser++;
+
+        //emit(AddUser(usr,numberOfuser));
 
 
-
-        Player* newnode=new Player;
-        newnode->username=usr;
-        newnode->score=0;
-        mPlayers.push_back(newnode);
     }
 }

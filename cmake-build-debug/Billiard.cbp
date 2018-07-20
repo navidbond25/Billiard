@@ -122,19 +122,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/Connection.h">
+			<Option target="Billiard"/>
+		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/Login.h">
 			<Option target="Billiard"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/Matching.h">
 			<Option target="Billiard"/>
 		</Unit>
+		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/Server.h">
+			<Option target="Billiard"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/ServerTable.h">
+			<Option target="Billiard"/>
+		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/HeaderFiles/UserTable.h">
+			<Option target="Billiard"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/Billiard/SourceFiles/Connection.cpp">
 			<Option target="Billiard"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/SourceFiles/Login.cpp">
 			<Option target="Billiard"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/SourceFiles/Matching.cpp">
+			<Option target="Billiard"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/Billiard/SourceFiles/Server.cpp">
+			<Option target="Billiard"/>
+		</Unit>
+		<Unit filename="/home/sepehr007/Billiard/SourceFiles/ServerTable.cpp">
 			<Option target="Billiard"/>
 		</Unit>
 		<Unit filename="/home/sepehr007/Billiard/SourceFiles/UserTable.cpp">

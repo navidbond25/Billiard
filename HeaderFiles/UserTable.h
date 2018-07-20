@@ -8,10 +8,10 @@
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QTableWidget>
 
-class Table: QWidget{
+class Client_Table: public QWidget{
     Q_OBJECT
 public:
-    Table(QTableWidget* tt);
+    Client_Table(QVector <QString>);
 
 private:
     QTableWidget *mUserTable;

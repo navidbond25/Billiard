@@ -153,9 +153,81 @@ CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o.provides: CMakeFiles/Billiard
 CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o.provides.build: CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o
 
 
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o: CMakeFiles/Billiard.dir/flags.make
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o: ../SourceFiles/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o -c /home/sepehr007/Billiard/SourceFiles/Server.cpp
+
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sepehr007/Billiard/SourceFiles/Server.cpp > CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.i
+
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sepehr007/Billiard/SourceFiles/Server.cpp -o CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.s
+
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.requires:
+
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.requires
+
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.provides: CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.provides.build
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.provides
+
+CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.provides.build: CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o
+
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o: CMakeFiles/Billiard.dir/flags.make
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o: ../SourceFiles/Connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o -c /home/sepehr007/Billiard/SourceFiles/Connection.cpp
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sepehr007/Billiard/SourceFiles/Connection.cpp > CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.i
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sepehr007/Billiard/SourceFiles/Connection.cpp -o CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.s
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.requires:
+
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.requires
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.provides: CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.provides.build
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.provides
+
+CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.provides.build: CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o
+
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o: CMakeFiles/Billiard.dir/flags.make
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o: ../SourceFiles/ServerTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o -c /home/sepehr007/Billiard/SourceFiles/ServerTable.cpp
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sepehr007/Billiard/SourceFiles/ServerTable.cpp > CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.i
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sepehr007/Billiard/SourceFiles/ServerTable.cpp -o CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.s
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.requires:
+
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.requires
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.provides: CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Billiard.dir/build.make CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.provides.build
+.PHONY : CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.provides
+
+CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.provides.build: CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o
+
+
 CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o: CMakeFiles/Billiard.dir/flags.make
 CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o: Billiard_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o -c /home/sepehr007/Billiard/cmake-build-debug/Billiard_automoc.cpp
 
 CMakeFiles/Billiard.dir/Billiard_automoc.cpp.i: cmake_force
@@ -183,6 +255,9 @@ Billiard_OBJECTS = \
 "CMakeFiles/Billiard.dir/SourceFiles/Login.cpp.o" \
 "CMakeFiles/Billiard.dir/SourceFiles/UserTable.cpp.o" \
 "CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o" \
+"CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o" \
+"CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o" \
+"CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o" \
 "CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o"
 
 # External object files for target Billiard
@@ -192,6 +267,9 @@ Billiard: CMakeFiles/Billiard.dir/main.cpp.o
 Billiard: CMakeFiles/Billiard.dir/SourceFiles/Login.cpp.o
 Billiard: CMakeFiles/Billiard.dir/SourceFiles/UserTable.cpp.o
 Billiard: CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o
+Billiard: CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o
+Billiard: CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o
+Billiard: CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o
 Billiard: CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o
 Billiard: CMakeFiles/Billiard.dir/build.make
 Billiard: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Widgets.so.5.8.0
@@ -200,7 +278,7 @@ Billiard: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Gui.so.5.8.0
 Billiard: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Network.so.5.8.0
 Billiard: /home/sepehr007/Desktop/QT5.8/5.8/gcc_64/lib/libQt5Core.so.5.8.0
 Billiard: CMakeFiles/Billiard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Billiard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Billiard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Billiard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +290,9 @@ CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/main.cpp.o.requires
 CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/Login.cpp.o.requires
 CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/UserTable.cpp.o.requires
 CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o.requires
+CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o.requires
+CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o.requires
+CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o.requires
 CMakeFiles/Billiard.dir/requires: CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o.requires
 
 .PHONY : CMakeFiles/Billiard.dir/requires

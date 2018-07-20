@@ -5,8 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sepehr007/Billiard/cmake-build-debug/Billiard_automoc.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/Billiard_automoc.cpp.o"
+  "/home/sepehr007/Billiard/SourceFiles/Connection.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/Connection.cpp.o"
   "/home/sepehr007/Billiard/SourceFiles/Login.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/Login.cpp.o"
   "/home/sepehr007/Billiard/SourceFiles/Matching.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/Matching.cpp.o"
+  "/home/sepehr007/Billiard/SourceFiles/Server.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/Server.cpp.o"
+  "/home/sepehr007/Billiard/SourceFiles/ServerTable.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/ServerTable.cpp.o"
   "/home/sepehr007/Billiard/SourceFiles/UserTable.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/SourceFiles/UserTable.cpp.o"
   "/home/sepehr007/Billiard/main.cpp" "/home/sepehr007/Billiard/cmake-build-debug/CMakeFiles/Billiard.dir/main.cpp.o"
   )

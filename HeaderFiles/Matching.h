@@ -8,17 +8,20 @@
 #include <QtCore/QObject>
 #include "UserTable.h"
 #include "Login.h"
-
+#include "ServerTable.h"
 class Matching: public QObject{
 Q_OBJECT
 public:
     Matching();
 
 public slots:
-    void New(QTableWidget*);
-
+    void NewClient(QVector <QString>);
+    void NewServer(QVector <QString>);
 private:
     Login *mLogin;
+
+signals:
+    void IsServer();
 
 };
 #endif //BILLIARD_MATCHING_H

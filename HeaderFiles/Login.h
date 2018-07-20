@@ -14,6 +14,7 @@
 #include <QDesktopWidget>
 #include <QVector>
 #include <QtWidgets/QTableWidget>
+#include <QtWidgets/QRadioButton>
 
 struct Player{
     QString username;
@@ -26,20 +27,21 @@ public:
     void Make_user_Table();
 
 private:
+    QRadioButton *radio1,*radio2;
     QLineEdit *mUserName;
     QLabel *mLabel;
     QPushButton *mLoginButton;
     QTableWidget *mUserTable;
-    QVector <Player*> mPlayers;
+    //QVector <Player*> mPlayers;
     int numberOfuser;
-
+    QVector <QString>usernames;
 public slots:
    void LoginRequest();
 
 signals:
     void AddUser(QString,int);
-    void NewTable(QTableWidget*);
-
+    void NewClient(QVector <QString>);
+    void NewServer(QVector <QString>);
 
 
 };

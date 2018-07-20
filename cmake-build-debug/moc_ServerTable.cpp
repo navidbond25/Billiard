@@ -1,16 +1,16 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'UserTable.h'
+** Meta object code from reading C++ file 'ServerTable.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.8.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../HeaderFiles/UserTable.h"
+#include "../HeaderFiles/ServerTable.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'UserTable.h' doesn't include <QObject>."
+#error "The header file 'ServerTable.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.8.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -20,27 +20,27 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_Client_Table_t {
+struct qt_meta_stringdata_Server_Table_t {
     QByteArrayData data[3];
     char stringdata0[21];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_Client_Table_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_Server_Table_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_Client_Table_t qt_meta_stringdata_Client_Table = {
+static const qt_meta_stringdata_Server_Table_t qt_meta_stringdata_Server_Table = {
     {
-QT_MOC_LITERAL(0, 0, 12), // "Client_Table"
+QT_MOC_LITERAL(0, 0, 12), // "Server_Table"
 QT_MOC_LITERAL(1, 13, 6), // "Adding"
 QT_MOC_LITERAL(2, 20, 0) // ""
 
     },
-    "Client_Table\0Adding\0"
+    "Server_Table\0Adding\0"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_Client_Table[] = {
+static const uint qt_meta_data_Server_Table[] = {
 
  // content:
        7,       // revision
@@ -62,10 +62,10 @@ static const uint qt_meta_data_Client_Table[] = {
        0        // eod
 };
 
-void Client_Table::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Server_Table::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        Client_Table *_t = static_cast<Client_Table *>(_o);
+        Server_Table *_t = static_cast<Server_Table *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->Adding((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
@@ -74,26 +74,26 @@ void Client_Table::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     }
 }
 
-const QMetaObject Client_Table::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_Client_Table.data,
-      qt_meta_data_Client_Table,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObject Server_Table::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_Server_Table.data,
+      qt_meta_data_Server_Table,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
-const QMetaObject *Client_Table::metaObject() const
+const QMetaObject *Server_Table::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Client_Table::qt_metacast(const char *_clname)
+void *Server_Table::qt_metacast(const char *_clname)
 {
     if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_Client_Table.stringdata0))
-        return static_cast<void*>(const_cast< Client_Table*>(this));
+    if (!strcmp(_clname, qt_meta_stringdata_Server_Table.stringdata0))
+        return static_cast<void*>(const_cast< Server_Table*>(this));
     return QWidget::qt_metacast(_clname);
 }
 
-int Client_Table::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Server_Table::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
